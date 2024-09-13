@@ -15,12 +15,11 @@ export const createGoalRoute: FastifyPluginAsyncZod = async app => {
     },
     async request => {
       const { title, desiredWeeklyFrequency } = request.body
-      const { goal } = await createGoal({
+
+      await createGoal({
         title,
         desiredWeeklyFrequency,
       })
-
-      return { goalId: goal.id }
     }
   )
 }
