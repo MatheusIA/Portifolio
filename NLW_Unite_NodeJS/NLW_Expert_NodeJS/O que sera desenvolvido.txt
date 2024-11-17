@@ -1,0 +1,7 @@
+Será desenvolvido uma aplicação BackEnd, para um siste de enquete em real time.
+
+Será usado um banco de dados postgree, para o armazenamento de dados dos votos. 
+
+Será utilizado um banco de dados Redis, para armazenar a quantidade de votos da opção.
+
+Utilizara WebSockets
