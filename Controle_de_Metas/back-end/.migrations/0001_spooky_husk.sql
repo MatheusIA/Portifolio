@@ -1,0 +1,1 @@
+ALTER TABLE "gpoals" RENAME TO "goals";
