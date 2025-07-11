@@ -1,0 +1,31 @@
+POST http://localhost:3333/events
+Content-Type: application/json
+
+{
+    "title": 123,
+    "details": null,
+    "maximumAtendees": 1
+}
+
+###
+
+POST http://localhost:3333/events/2a81d39e-c924-491d-873b-b3b9ab8af8e2/attendees
+Content-Type: application/json
+
+{
+    "name": "Matheus Douglas",
+    "email": "matheus1douglas58@gmail.com"
+}
+
+###
+
+GET http://localhost:3333/events/0bb633a1-aa0c-489b-9171-15b90abb6c14
+
+###
+GET http://localhost:3333/attendees/4/badge
+
+###
+GET http://localhost:3333/attendees/4/check-in
+
+###
+GET http://localhost:3333/events/2a81d39e-c924-491d-873b-b3b9ab8af8e2/attendees?query=matheus
