@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "@types/dom-speech-recognition": "^0.0.6"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.9"
+  }
+}
